@@ -8,4 +8,10 @@ As a visual output we used an LCD screen cape like this [one](http://www.chipsee
 
 For input, we planned on using buttons but we were not able to configure them correctly. The goal was to have buttons correspond to different keymappings and to modify the keymapping depending on the game. Also, we were hoping to use a hall effect joystick that communicates with I2C. But we were unable to configure the I2C bus to read the joystick position. The input solution we have so far is to use a keyboard and/or mouse and the buttons already present on the LCD screen cape.
 
-In our project we used a Debian distribution as the operating system. You can find the tutorial and ressources to install it on your BeagleBone Black [here](http://beagleboard.org/latest-images).
+For our project we used a Debian distribution as the operating system. You can find the tutorial and ressources to install it on your BeagleBone Black [here](http://beagleboard.org/latest-images)。
+
+In this repository you can find the binary and source of the emulators we used. We used a SDL port of Doom and FCEUX. Both programs were built from source on the BeagleBone Black. We have forked Doom and FCEUX from Max Thrun's versions which can be found [here](https://github.com/bear24rw/gamingcape).
+
+For the Doom and FCEUX applications to work. You will need to copy "cal.txt" to your home directory. This was used by Max Thrun to calibrate a joystick and is kept in our version to maintain compatibility with his code.
+
+Then, in order to start Doom or Super Mario (for example), you will need a (legal) copy of the Doom shareware WAD file and a Super Mario Bros NES rom file. You should place these files in your home directory. Finally simply run the corresponding script to start the game.

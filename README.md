@@ -15,3 +15,4 @@ In this repository you can find the binary and source of the emulators we used. 
 For the Doom and FCEUX applications to work. You will need to copy "cal.txt" to your home directory. This was used by Max Thrun to calibrate a joystick and is kept in our version to maintain compatibility with his code.
 
 Then, in order to start Doom or Super Mario (for example), you will need a (legal) copy of the Doom shareware WAD file and a Super Mario Bros NES rom file. You should place these files in your home directory. Finally simply run the corresponding script to start the game.
+

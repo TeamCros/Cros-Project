@@ -6,6 +6,6 @@ The base hardware is a [BeagleBone Black](http://beagleboard.org/black), an open
 
 As a visual output we used an LCD screen cape like this [one](http://www.chipsee.com/product/evm/beagle/cs-bbb-exp50r.html). The BeagleBone Black uses a cape manager which automatically detects compatible capes. This means many different capes can be used for display or for other purposes. To find out more about capes follow this [link](http://beagleboard.org/cape).
 
-For input, we planned on using buttons but we were not able to configure them correctly.
+For input, we planned on using buttons but we were not able to configure them correctly. The goal was to have buttons correspond to different keymappings and to modify the keymapping depending on the game. Also, we were hoping to use a hall effect joystick that communicates with I2C. But we were unable to configure the I2C bus to read the joystick position. The input solution we have so far is to use a keyboard and/or mouse and the buttons already present on the LCD screen cape.
 
-In our project we used a Debian distribution as the operating system. You can find the tutorial and ressources to install it on your BeagleBone Black [here](http://beagleboard.org/latest-images)
+In our project we used a Debian distribution as the operating system. You can find the tutorial and ressources to install it on your BeagleBone Black [here](http://beagleboard.org/latest-images).

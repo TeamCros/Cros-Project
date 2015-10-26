@@ -16,3 +16,4 @@ For the Doom and FCEUX applications to work. You will need to copy "cal.txt" to 
 
 Then, in order to start Doom or Super Mario (for example), you will need a (legal) copy of the Doom shareware WAD file and a Super Mario Bros NES rom file. You should place these files in your home directory. Finally simply run the corresponding script to start the game.
 
+We have designed a plastic encoluse that can be printed on a 3D printer without support. Download the STL file in the enclosure folder.
